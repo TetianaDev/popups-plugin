@@ -1,0 +1,61 @@
+/* ----- Single popup settings styles ----- */
+.settings-heading {
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.settings-show_date {
+    margin: 16px 0;
+}
+
+.settings-block, .base-settings_type {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#popup-image-preview img {
+    max-width: 50%;
+}
+
+.event_button_link {
+    width: 50%;
+}
+
+/* ----- Global settings styles ----- */
+.popups-settings_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.popups-settings_form hr {
+    width: 100%;
+    border-width: 2px;
+}
+
+.popups-settings_wrapper {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.popups-settings_wrapper label {
+    width: 40%;
+}
+
+.popups-settings_wrapper select {
+    display: flex;
+    width: 60%;
+}
+
+.popups-settings_wrapper select[multiple] {
+    height: 250px;
+}
+
+#popup_emails {
+    width: 50%;
+}
